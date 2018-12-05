@@ -1,4 +1,5 @@
 ln -sv ~/dotfiles/.vimrc  ~/
+ln -sv ~/dotfiles/.zshrc  ~/
 
 # setup iterm to read pref from the dotfiles dir
 
