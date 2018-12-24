@@ -102,6 +102,10 @@ source $ZSH/oh-my-zsh.sh
 
 alias psql='docker start psql; docker attach psql'
 alias gdp='source ~/code/data-pipeline-platform/.venv/bin/activate; cd ~/code/data-pipeline-platform'
+alias listparams='aws ssm describe-parameters'
+alias getuatpw='aws ssm get-parameter --name /dev/dataprocessing/database/platform --with-decryption'
+alias getdevpw='aws ssm get-parameter --name /uat/dataprocessing/database/platform --with-decryption'
+
 
 export AWS_PROFILE=platform-dev
 

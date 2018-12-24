@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AlternateMouseScroll</key>
+	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
 	<key>AppleScrollAnimationEnabled</key>
@@ -277,7 +279,7 @@
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 548 1680 479 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>648 184 1032 843 0 0 1680 1027 </string>
+	<string>502 116 1158 911 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>233 78 570 452 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -1626,7 +1628,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>BE645A09-DA89-412A-8AB9-F850946532D2</string>
 	<key>NoSyncLastTipTime</key>
-	<real>565662083.00424898</real>
+	<real>566707164.33899605</real>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -1636,6 +1638,13 @@
 		<string>000</string>
 		<string>0000</string>
 		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
@@ -1671,7 +1680,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/simond/dotfiles</string>
+	<string>~/dotfiles</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1681,12 +1690,14 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-12-05T23:03:20Z</date>
+	<date>2018-12-17T03:36:55Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>SUSkippedVersion</key>
+	<string>3.2.7beta2</string>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.2.6</string>
+	<string>3.2.7beta1</string>
 </dict>
 </plist>
