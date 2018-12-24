@@ -1628,7 +1628,11 @@
 	<key>NoSyncInstallationId</key>
 	<string>BE645A09-DA89-412A-8AB9-F850946532D2</string>
 	<key>NoSyncLastTipTime</key>
-	<real>566707164.33899605</real>
+	<real>567305522.98645401</real>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -1645,6 +1649,10 @@
 		<string>0006</string>
 		<string>0007</string>
 		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
@@ -1690,7 +1698,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-12-17T03:36:55Z</date>
+	<date>2018-12-20T04:13:33Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUSkippedVersion</key>
