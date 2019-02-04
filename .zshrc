@@ -103,8 +103,8 @@ source $ZSH/oh-my-zsh.sh
 alias psql='docker start psql; docker attach psql'
 alias gdp='source ~/code/data-pipeline-platform/.venv/bin/activate; cd ~/code/data-pipeline-platform'
 alias listparams='aws ssm describe-parameters'
-alias getuatpw='aws ssm get-parameter --name /dev/dataprocessing/database/platform --with-decryption'
-alias getdevpw='aws ssm get-parameter --name /uat/dataprocessing/database/platform --with-decryption'
+alias getdevpw='aws ssm get-parameter --name /dev/dataprocessing/database/platform --with-decryption'
+alias getuatpw='aws ssm get-parameter --name /uat/dataprocessing/database/platform --with-decryption'
 
 
 export AWS_PROFILE=platform-dev
@@ -123,15 +123,15 @@ setopt    incappendhistory  #Immediately append to the history file, not just wh
 # added by Anaconda3 2018.12 installer
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$(CONDA_REPORT_ERRORS=false '/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    \eval "$__conda_setup"
-else
-    if [ -f "/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/anaconda3/etc/profile.d/conda.sh"
-        CONDA_CHANGEPS1=false conda activate base
-    else
-        \export PATH="/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
+#__conda_setup="$(CONDA_REPORT_ERRORS=false '/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+#if [ $? -eq 0 ]; then
+#    \eval "$__conda_setup"
+#else
+#    if [ -f "/anaconda3/etc/profile.d/conda.sh" ]; then
+#        . "/anaconda3/etc/profile.d/conda.sh"
+#        CONDA_CHANGEPS1=false conda activate base
+#    else
+#        \export PATH="/anaconda3/bin:$PATH"
+#    fi
+#fi
+#unset __conda_setup
