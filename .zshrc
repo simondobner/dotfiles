@@ -100,7 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-alias psql='docker start psql; docker attach psql'
 alias gdp='source ~/code/data-pipeline-platform/.venv/bin/activate; cd ~/code/data-pipeline-platform'
 alias listparams='aws ssm describe-parameters'
 alias getdevpw='aws ssm get-parameter --name /dev/dataprocessing/database/platform --with-decryption'
